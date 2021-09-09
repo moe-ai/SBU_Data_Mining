@@ -1,0 +1,41 @@
+Android is one of the most used mobile operating systems worldwide. Even if it includes security mechanisms, its open source availability may be a bane to it and the latest news about malicious activities and Android´s vulnerabilities point to the importance of continuing the development of methods and frameworks to improve its security.
+Our job is to create analytical models based on data that allow for the discovery of insights that can help to predict malicious activities.
+Download the dataset. (malware.csv file provided in this folder)
+The underlying dataset contains various features explaining the cause and effect of the malware. They are:
+1.tcp_packets:
+TCP packets, count the number of packets TCP sent and received during communication.
+2.dist_port_tcp:
+Different TCP packets, is the total number of packets that have ports other than those exposed in TCP.
+3.external_ips:
+External IP, represents the number of addresses External IPs to which the application communicated.
+4.vulume_bytes:
+Byte volume, is the number of bytes that is sent from the application to the sites external.
+5.udp_packets:
+UDP packets, total number of packets UDP transferred in communication.
+6.tcp_urg_packet:
+TCP packet with urg flag , used to notify the receiver to process the urgent packets before processing all other packets.
+7.source_app_packets:
+Source application packages, is the number of packets sent from the application to a Remote server.
+8.remote_app_packets:
+Remote application packages, number of packets received from sources outside the application.
+9.source_app_bytes:
+Bytes of the source application, This is the volume (in bytes) of communication between the application and server.
+10.remote_app_bytes:
+Bytes from the remote application, this is the volume (in bytes) of data from server up to the emulator.
+11.dns_query_times:
+DNS queries, number of DNS queries.
+12.Type:
+Tells how dangerous the malware is and its effect on android. Benign if the malware is not that harmful and is focussed on a particular portion of the device. Malicious if it spreads the malware to the entire system and is harmful to the entire device.
+
+Task:
+
+The main purpose of this week is to pre-process the dataset for the next step that would be the implementation of machine learning algorithms.
+
+Do the complete EDA (Exploratory Data Analysis) like Cleanize the dataset, handling the missing values, extracting features and doing feature selection and so on based on the ones you learnt through tutorial.
+
+One of the most important factors of data cleaning and exploration is visualization and plotting. 
+Visualization provides a good understanding of features’ value.
+Now try to plot the statistics you would find and explore the dataset.
+
+Explain the reasons for steps and decisions you took for handling missing values and so on.
+ 
